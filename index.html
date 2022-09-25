@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+        <title>
+            MIC          
+        </title>
+    </head>
+    <body>
+
+        <div class="showcase parallax">
+            <a href="index_en.html" style="text-decoration: none; color:white; position:absolute; right: 40px; top: 20px;" ><b>EN</b></a>
+            <div class="caption">
+                <div class="captionbox" style="color: white;">Sférické mikrofonní pole MIC</div>
+            </div>
+        </div>
+
+
+        <section id="introduction" class="innersection textsection">
+            <h2>Úvod</h2>
+            <p>
+                Mikrofonní pole, vzniklé v rámci studentského projektu, představuje univerzální řešení pro snímání prostorového zvuku. 
+                K vývoji prototypu byly využity nekonvenční výrobní metody, jako například průmyslový 3D tisk. Aby se projekt mohl i dále rozvíjet nad rámec znalostí autorů, bude zveřejněn jako open-source.
+            </p>
+            <p>
+                Projekt začal vznikat na půdě Fakulty elektrotechnické ČVUT jako bakalářská práce Davida Vagnera, který řešil především akustiku a hardware celého zařízení. 
+                Později se k vývoji přidal Tomáš Formánek, který zajistil vývoj softwaru a k projektu přizval Danila Rekhtina z Vysoké školy uměleckoprůmyslové (UMPRUM). 
+                Vznikla tak unikátní vývojová skupina, kterou se rozhodla podpořit firma 3Dees v rámci výstavy Designblok 2022.
+            </p>
+        </section>
+
+
+        <section id="description" class="cardsection">
+            <div class="innersection textsection">
+
+            </div>
+            <h2>Komponenty</h2>
+            <div class="cardboard">
+
+                <div class="card">
+                    <img src="tilepic1.jpg" alt="Sféra" style="width:100%">
+                    <div class="container">
+                        <h4><b>Sféra</b></h4>
+                        <p>
+                            Mikrofonní pole je sestaveno z 16. digitálních MEMS mikrofonů, které jsou rozmístěné na dvou polokoulích. 
+                            Rozmístění mikrofonních kapslí odpovídá ambisonickému mikrofonu 3. řádu.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="tilepic2.jpg" alt="Holder" style="width:100%">
+                    <div class="container">
+                        <h4><b>Holder</b></h4>
+                        <p>
+                            Ke sféře lze připevnit multifunkční holder se standardizovanými úchyty pro mikrofonní stojan nebo pro 360° kameru. 
+                            Holder též disponuje ovládacími prvky pro offline provoz. Je tak umožněna snadná manipulace v terénu.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="tilepic3.jpg" alt="Řídicí jednotka" style="width:100%">
+                    <div class="container">
+                        <h4><b>Řídicí jednotka</b></h4>
+                        <p>
+                            O sběr dat z mikrofonního pole se stará řídicí jednotka realizováná pomocí mikropočítače Raspberry PI Zero 2 W. 
+                            Pole je k Raspberry PI připojeno pomocí převodníku TDM na I2S.
+                            Řídicí jednotka je vybavena softwarem pro vzdálenou obsluhu.
+                    
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="middlepic parallax ">
+            <div class="caption">
+                <div class="captionbox"></div>
+            </div>
+        </div>
+
+
+ 
+
+        <section id="development" class="innersection textsection">
+            <h2>Vývoj</h2>
+            <p>
+                Cílem projektu je vytvořit funkční prototyp sférického mikrofonního pole, které lze snadno vyrobit v domácích podmínkách z běžně dostupných komponent.
+                Design klade důraz na uživatelskou přívětivost, zároveň zachovává modularitu a přizpůsobitelnost zařízení pro různé případy užití.             
+            </p>
+            <p>
+                Projekt bude v budoucnu zveřejněn jako open-source,
+                konstrukce mikrofonu je proto navržena tak, aby bylo možné ji snadno vyrobit s využitím běžného 3D tisku.
+                Výrobu našich prototypů zajišťuje společnost 3Dees s využitím technologie SLS (práškový tisk). 
+
+            </p>
+            <div style="text-align: center;">
+                <span >Vývoj probíhá ve spolupráci s ČVUT a UMPRUM. </span>
+            </div>
+
+  
+        </section>
+
+        <footer class="textsection">
+            <p style="text-indent: 0px; text-align:center; padding-top: 60px; padding-bottom: 60px; color: #555; font-size: 0.9rem;">
+                David Vagner - david.vagner@centrum.cz
+<br/>
+                Danil Rekhtin - <a href="https://rekhtin.myportfolio.com/">https://rekhtin.myportfolio.com/</a>
+<br/>
+                Tomáš Formánek - tomformanek@email.cz
+<br/>
+                3Dees - <a href="https://www.3dees.cz/">https://www.3dees.cz/</a>
+</p>
+
+        </footer>
+    </body>
+</html>
